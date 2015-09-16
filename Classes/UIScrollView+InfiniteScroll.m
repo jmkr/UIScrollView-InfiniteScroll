@@ -89,7 +89,7 @@ static const void *kPBInfiniteScrollStateKey = &kPBInfiniteScrollStateKey;
 
 - (instancetype)init {
     if(self = [super init]) {
-        _indicatorStyle = UIActivityIndicatorViewStyleGray;
+        _indicatorStyle = UIActivityIndicatorViewStyleWhiteLarge;
         
         // Default row height (44) minus activity indicator height (22) / 2
         _indicatorMargin = 11;
