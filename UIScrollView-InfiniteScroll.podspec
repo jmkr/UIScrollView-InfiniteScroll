@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/*.{h,m}'
   s.requires_arc = true
   s.ios.deployment_target = '7.0'
+  s.tvos.deployment_target = '9.0'
 end
